@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Calculator</title>
+</head>
+<body>
+  <div id="heading-back">
+    <h1 id="heading">Amazing Calculator</h1>
+  </div>
+  <div id ="output-field">
+    <h1 id="showOutput">0</h1>
+  </div>
+  <div id="calc">
+    <table>
+      <tr>
+        <th onclick="clearDisplay()">C</th>
+        <th onclick="mathOperations('%')">%</th>
+        <th onclick="deleteLastCharacter()">Del</th>
+        <th onclick="mathOperations('÷')">÷</th>
+      </tr>
+      <tr>
+        <th onclick="showPressedNum('7')">7</th>
+        <th onclick="showPressedNum('8')">8</th>
+        <th onclick="showPressedNum('9')">9</th>
+        <th onclick="mathOperations('×')">×</th>
+      </tr>
+      <tr>
+        <th onclick="showPressedNum('4')">4</th>
+        <th onclick="showPressedNum('5')">5</th>
+        <th onclick="showPressedNum('6')">6</th>
+        <th onclick="mathOperations('-')">-</th>
+      </tr>
+      <tr>
+        <th onclick="showPressedNum('1')">1</th>
+        <th onclick="showPressedNum('2')">2</th>
+        <th onclick="showPressedNum('3')">3</th>
+        <th onclick="mathOperations('+')">+</th>
+      </tr>
+      <tr>
+        <th onclick="openScientific()">Sci</th>
+        <th onclick="showPressedNum('0')">0</th>
+        <th onclick="showPressedNum('.')">.</th>
+        <th onclick="mathOperations('=')">=</th>
+      </tr>
+    </table>
+  </div>
+  
+  <div>
+    
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    &copy elGuapo Inc. 2025
+  </footer>
+</body>
+</html>
